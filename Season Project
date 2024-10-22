@@ -1,0 +1,43 @@
+'''
+Name: Zachary Briggs
+Date: 10/22/24
+Assignment: Unit 2 & 3 Project
+'''
+
+month = input("Enter the month:")
+Day = int(input("Enter the day (1-31):)
+Month = month.title()
+
+#Season First Day
+#Spring March 20
+#Summer June 21 
+#Fall September 22
+#Winter December 21
+# 0 < day < 31
+
+if Month == ('January') or Month == ('February'):
+  print(Month,Day,"is in Winter")
+elif Month == ("March") and 1< Day < 20:
+  print(Month,Day,"is in Winter")
+elif Month == ('December') and  21 >= Day >= 31 :
+  print(Month,Day,"is in Winter")
+elif Month == ('March') and 20 <= Day <= 30:
+  print(Month,Day,"is in Spring")
+elif Month == ('April') or Month == ('May'):
+  print(Month,Day,"is in Spring")
+elif Month == ('June') and 1 <= Day < 21:
+  print(Month,Day,"is in Spring")
+elif Month == ('June') and 21 <= Day <= 30:
+  print(Month,Day,"is in Summer")
+elif Month == ('July') or Month == ('August'):
+  print(Month,Day,"is in Summer")
+elif Month == ('September') and 1 <= Day < 22:
+  print(Month,Day,"is in Summer")
+elif Month == ('September') and 22 <= Day <= 30:
+  print(Month,Day,"is in Fall")
+elif Month == ('October') or ('November'):
+  print(Month,Day,"is in Fall")
+elif Month == ('December') and 1 <= Day < 21:
+  print(Month,Day,"is in Winter")
+else:
+  print('Restart the code and try again')
