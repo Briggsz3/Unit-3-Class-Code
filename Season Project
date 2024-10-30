@@ -5,7 +5,7 @@ Assignment: Unit 2 & 3 Project
 '''
 
 month = input("Enter the month:")
-Day = int(input("Enter the day (1-31):)
+Day = int(input("Enter the day (1-31):"))
 Month = month.title()
 
 #Season First Day
